@@ -1,1 +1,750 @@
-{"formatVersion":"1.0","generatedAt":"2021-06-11T15:58:29Z","generatedBy":{"name":"Max Cobb"},"keywords":["RealityKit","Augmented Reality","ARKit","RealityUI","FocusEntity"],"name":"RealityKit Package Collection","overview":"Packages to be used by RealityKit apps","packages":[{"keywords":["swift","augmented-reality","swiftpm","arkit","swiftpackage","ios13","arkit3","realitykit"],"license":{"name":"MIT","url":"https://raw.githubusercontent.com/maxxfrazer/FocusEntity/main/LICENSE"},"readmeURL":"https://raw.githubusercontent.com/maxxfrazer/FocusEntity/main/README.md","summary":"Bringing the scanning box from SceneKit to RealityKit","url":"https://github.com/maxxfrazer/FocusEntity","versions":[{"defaultToolsVersion":"5.0.0","manifests":{"5.0.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"}],"packageName":"FocusEntity","products":[{"name":"FocusEntity","targets":["FocusEntity"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"FocusEntity","name":"FocusEntity"}],"toolsVersion":"5.0.0"}},"version":"v2.2.3"},{"defaultToolsVersion":"5.0.0","manifests":{"5.0.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"}],"packageName":"FocusEntity","products":[{"name":"FocusEntity","targets":["FocusEntity"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"FocusEntity","name":"FocusEntity"}],"toolsVersion":"5.0.0"}},"version":"v2.2.2"},{"defaultToolsVersion":"5.0.0","manifests":{"5.0.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"}],"packageName":"FocusEntity","products":[{"name":"FocusEntity","targets":["FocusEntity"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"FocusEntity","name":"FocusEntity"}],"toolsVersion":"5.0.0"}},"version":"v2.2.1"},{"defaultToolsVersion":"5.0.0","manifests":{"5.0.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"}],"packageName":"FocusEntity","products":[{"name":"FocusEntity","targets":["FocusEntity"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"FocusEntity","name":"FocusEntity"}],"toolsVersion":"5.0.0"}},"version":"v1.1.1"},{"defaultToolsVersion":"5.0.0","manifests":{"5.0.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"}],"packageName":"FocusEntity","products":[{"name":"FocusEntity","targets":["FocusEntity"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"FocusEntity","name":"FocusEntity"}],"toolsVersion":"5.0.0"}},"version":"v1.1.0"},{"defaultToolsVersion":"5.0.0","manifests":{"5.0.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"}],"packageName":"FocusEntity","products":[{"name":"FocusEntity","targets":["FocusEntity"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"FocusEntity","name":"FocusEntity"}],"toolsVersion":"5.0.0"}},"version":"v1.0.3"}]},{"keywords":["macos","swift","ios","ui","augmented-reality","ux","ar","swift-package-manager","virtual-reality","user-interface","user-interaction","swiftpm","user-experience","mixed-reality","3d","3d-graphics","augmented-interactions","arkit","ar-vr","realitykit"],"license":{"name":"MIT","url":"https://raw.githubusercontent.com/maxxfrazer/RealityUI/main/LICENSE.md"},"readmeURL":"https://raw.githubusercontent.com/maxxfrazer/RealityUI/main/README.md","summary":"A Swift Package for creating familiar UI Elements and animations in a RealityKit rendered Augmented Reality or Virtual Reality scene.","url":"https://github.com/maxxfrazer/RealityUI","versions":[{"defaultToolsVersion":"5.2.0","manifests":{"5.2.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"},{"name":"macos","version":"10.15"}],"packageName":"RealityUI","products":[{"name":"RealityUI","targets":["RealityUI"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"RealityUI","name":"RealityUI"}],"toolsVersion":"5.2.0"}},"version":"v1.2.1"},{"defaultToolsVersion":"5.2.0","manifests":{"5.2.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"},{"name":"macos","version":"10.15"}],"packageName":"RealityUI","products":[{"name":"RealityUI","targets":["RealityUI"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"RealityUI","name":"RealityUI"}],"toolsVersion":"5.2.0"}},"version":"v1.2.0"},{"defaultToolsVersion":"5.2.0","manifests":{"5.2.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"},{"name":"macos","version":"10.15"}],"packageName":"RealityUI","products":[{"name":"RealityUI","targets":["RealityUI"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"RealityUI","name":"RealityUI"}],"toolsVersion":"5.2.0"}},"version":"v1.1.0"}]},{"keywords":["realitykit","multipeer-connectivity","ios","swiftpm","augmented-reality","arsession","arkit","arkit3","swift-package-manager","collaborative-session","mixed-reality","multiplayer","multipeerconnectivity","swift"],"license":{"name":"MIT","url":"https://raw.githubusercontent.com/maxxfrazer/MultipeerHelper/main/LICENSE"},"readmeURL":"https://raw.githubusercontent.com/maxxfrazer/MultipeerHelper/main/README.md","summary":"A light swift wrapper around the iOS MultipeerConnectivity framework. Including an example project using RealityKit's MultipeerConnectivityService.","url":"https://github.com/maxxfrazer/MultipeerHelper","versions":[{"defaultToolsVersion":"5.2.0","manifests":{"5.2.0":{"minimumPlatformVersions":[{"name":"ios","version":"11.0"},{"name":"macos","version":"10.10"},{"name":"tvos","version":"9.0"}],"packageName":"MultipeerHelper","products":[{"name":"MultipeerHelper","targets":["MultipeerHelper"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"MultipeerHelper","name":"MultipeerHelper"}],"toolsVersion":"5.2.0"}},"version":"v1.3.1"},{"defaultToolsVersion":"5.2.0","manifests":{"5.2.0":{"minimumPlatformVersions":[{"name":"ios","version":"11.0"},{"name":"macos","version":"10.10"},{"name":"tvos","version":"9.0"}],"packageName":"MultipeerHelper","products":[{"name":"MultipeerHelper","targets":["MultipeerHelper"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"MultipeerHelper","name":"MultipeerHelper"}],"toolsVersion":"5.2.0"}},"version":"v1.3.0"},{"defaultToolsVersion":"5.2.0","manifests":{"5.2.0":{"minimumPlatformVersions":[{"name":"ios","version":"11.0"},{"name":"macos","version":"10.10"},{"name":"tvos","version":"9.0"}],"packageName":"MultipeerHelper","products":[{"name":"MultipeerHelper","targets":["MultipeerHelper"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"MultipeerHelper","name":"MultipeerHelper"}],"toolsVersion":"5.2.0"}},"version":"v1.3.0-rc3"}]},{"keywords":["swift","ios","augmented-reality","ar","swiftpm","augmented","arkit","arkit3","realitykit"],"license":{"name":"MIT","url":"https://raw.githubusercontent.com/maxxfrazer/RKPointPin/master/LICENSE"},"readmeURL":"https://raw.githubusercontent.com/maxxfrazer/RKPointPin/master/README.md","summary":"A UIView which points at a RealityKit Entity from screenspace","url":"https://github.com/maxxfrazer/RKPointPin","versions":[{"defaultToolsVersion":"5.2.0","manifests":{"5.2.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"}],"packageName":"RKPointPin","products":[{"name":"RKPointPin","targets":["RKPointPin"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"RKPointPin","name":"RKPointPin"}],"toolsVersion":"5.2.0"}},"version":"v1.0.1"},{"defaultToolsVersion":"5.2.0","manifests":{"5.2.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"}],"packageName":"RKPointPin","products":[{"name":"RKPointPin","targets":["RKPointPin"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"RKPointPin","name":"RKPointPin"}],"toolsVersion":"5.2.0"}},"version":"v1.0.0"}]},{"keywords":["swift","ios","augmented-reality","swiftpm","3d","arkit","realitykit"],"license":{"name":"MIT","url":"https://raw.githubusercontent.com/maxxfrazer/RKProgressBar/master/LICENSE"},"readmeURL":"https://raw.githubusercontent.com/maxxfrazer/RKProgressBar/master/README.md","summary":"A simple RealityKit Entity class for creating a geometry to show progress in the form of a capsule","url":"https://github.com/maxxfrazer/RKProgressBar","versions":[{"defaultToolsVersion":"5.1.0","manifests":{"5.1.0":{"minimumPlatformVersions":[{"name":"ios","version":"13.0"}],"packageName":"RKProgressBar","products":[{"name":"RKProgressBar","targets":["RKProgressBar"],"type":{"library":["automatic"]}}],"targets":[{"moduleName":"RKProgressBar","name":"RKProgressBar"}],"toolsVersion":"5.1.0"}},"version":"v1.0.0"}]}]}
+{
+  "formatVersion": "1.0",
+  "generatedAt": "2021-06-15T14:02:51Z",
+  "generatedBy": {
+    "name": "Max Cobb"
+  },
+  "keywords": [
+    "RealityKit",
+    "Augmented Reality",
+    "ARKit",
+    "RealityUI",
+    "FocusEntity"
+  ],
+  "name": "RealityKit Package Collection",
+  "overview": "Packages to be used by RealityKit apps",
+  "packages": [
+    {
+      "keywords": [
+        "swift",
+        "augmented-reality",
+        "swiftpm",
+        "arkit",
+        "swiftpackage",
+        "ios13",
+        "arkit3",
+        "realitykit"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://raw.githubusercontent.com/maxxfrazer/FocusEntity/main/LICENSE"
+      },
+      "readmeURL": "https://raw.githubusercontent.com/maxxfrazer/FocusEntity/main/README.md",
+      "summary": "Bringing the scanning box from SceneKit to RealityKit",
+      "url": "https://github.com/maxxfrazer/FocusEntity",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.0.0",
+          "manifests": {
+            "5.0.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                }
+              ],
+              "packageName": "FocusEntity",
+              "products": [
+                {
+                  "name": "FocusEntity",
+                  "targets": [
+                    "FocusEntity"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "FocusEntity",
+                  "name": "FocusEntity"
+                }
+              ],
+              "toolsVersion": "5.0.0"
+            }
+          },
+          "version": "v2.2.3"
+        },
+        {
+          "defaultToolsVersion": "5.0.0",
+          "manifests": {
+            "5.0.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                }
+              ],
+              "packageName": "FocusEntity",
+              "products": [
+                {
+                  "name": "FocusEntity",
+                  "targets": [
+                    "FocusEntity"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "FocusEntity",
+                  "name": "FocusEntity"
+                }
+              ],
+              "toolsVersion": "5.0.0"
+            }
+          },
+          "version": "v2.2.2"
+        },
+        {
+          "defaultToolsVersion": "5.0.0",
+          "manifests": {
+            "5.0.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                }
+              ],
+              "packageName": "FocusEntity",
+              "products": [
+                {
+                  "name": "FocusEntity",
+                  "targets": [
+                    "FocusEntity"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "FocusEntity",
+                  "name": "FocusEntity"
+                }
+              ],
+              "toolsVersion": "5.0.0"
+            }
+          },
+          "version": "v2.2.1"
+        },
+        {
+          "defaultToolsVersion": "5.0.0",
+          "manifests": {
+            "5.0.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                }
+              ],
+              "packageName": "FocusEntity",
+              "products": [
+                {
+                  "name": "FocusEntity",
+                  "targets": [
+                    "FocusEntity"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "FocusEntity",
+                  "name": "FocusEntity"
+                }
+              ],
+              "toolsVersion": "5.0.0"
+            }
+          },
+          "version": "v1.1.1"
+        },
+        {
+          "defaultToolsVersion": "5.0.0",
+          "manifests": {
+            "5.0.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                }
+              ],
+              "packageName": "FocusEntity",
+              "products": [
+                {
+                  "name": "FocusEntity",
+                  "targets": [
+                    "FocusEntity"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "FocusEntity",
+                  "name": "FocusEntity"
+                }
+              ],
+              "toolsVersion": "5.0.0"
+            }
+          },
+          "version": "v1.1.0"
+        },
+        {
+          "defaultToolsVersion": "5.0.0",
+          "manifests": {
+            "5.0.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                }
+              ],
+              "packageName": "FocusEntity",
+              "products": [
+                {
+                  "name": "FocusEntity",
+                  "targets": [
+                    "FocusEntity"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "FocusEntity",
+                  "name": "FocusEntity"
+                }
+              ],
+              "toolsVersion": "5.0.0"
+            }
+          },
+          "version": "v1.0.3"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "macos",
+        "swift",
+        "ios",
+        "ui",
+        "augmented-reality",
+        "ux",
+        "ar",
+        "swift-package-manager",
+        "virtual-reality",
+        "user-interface",
+        "user-interaction",
+        "swiftpm",
+        "user-experience",
+        "mixed-reality",
+        "3d",
+        "3d-graphics",
+        "augmented-interactions",
+        "arkit",
+        "ar-vr",
+        "realitykit"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://raw.githubusercontent.com/maxxfrazer/RealityUI/main/LICENSE.md"
+      },
+      "readmeURL": "https://raw.githubusercontent.com/maxxfrazer/RealityUI/main/README.md",
+      "summary": "A Swift Package for creating familiar UI Elements and animations in a RealityKit rendered Augmented Reality or Virtual Reality scene.",
+      "url": "https://github.com/maxxfrazer/RealityUI",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.2.0",
+          "manifests": {
+            "5.2.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                },
+                {
+                  "name": "macos",
+                  "version": "10.15"
+                }
+              ],
+              "packageName": "RealityUI",
+              "products": [
+                {
+                  "name": "RealityUI",
+                  "targets": [
+                    "RealityUI"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "RealityUI",
+                  "name": "RealityUI"
+                }
+              ],
+              "toolsVersion": "5.2.0"
+            }
+          },
+          "version": "v1.2.1"
+        },
+        {
+          "defaultToolsVersion": "5.2.0",
+          "manifests": {
+            "5.2.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                },
+                {
+                  "name": "macos",
+                  "version": "10.15"
+                }
+              ],
+              "packageName": "RealityUI",
+              "products": [
+                {
+                  "name": "RealityUI",
+                  "targets": [
+                    "RealityUI"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "RealityUI",
+                  "name": "RealityUI"
+                }
+              ],
+              "toolsVersion": "5.2.0"
+            }
+          },
+          "version": "v1.2.0"
+        },
+        {
+          "defaultToolsVersion": "5.2.0",
+          "manifests": {
+            "5.2.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                },
+                {
+                  "name": "macos",
+                  "version": "10.15"
+                }
+              ],
+              "packageName": "RealityUI",
+              "products": [
+                {
+                  "name": "RealityUI",
+                  "targets": [
+                    "RealityUI"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "RealityUI",
+                  "name": "RealityUI"
+                }
+              ],
+              "toolsVersion": "5.2.0"
+            }
+          },
+          "version": "v1.1.0"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "realitykit",
+        "multipeer-connectivity",
+        "ios",
+        "swiftpm",
+        "augmented-reality",
+        "arsession",
+        "arkit",
+        "arkit3",
+        "swift-package-manager",
+        "collaborative-session",
+        "mixed-reality",
+        "multiplayer",
+        "multipeerconnectivity",
+        "swift"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://raw.githubusercontent.com/maxxfrazer/MultipeerHelper/main/LICENSE"
+      },
+      "readmeURL": "https://raw.githubusercontent.com/maxxfrazer/MultipeerHelper/main/README.md",
+      "summary": "A light swift wrapper around the iOS MultipeerConnectivity framework. Including an example project using RealityKit's MultipeerConnectivityService.",
+      "url": "https://github.com/maxxfrazer/MultipeerHelper",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.2.0",
+          "manifests": {
+            "5.2.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "11.0"
+                },
+                {
+                  "name": "macos",
+                  "version": "10.10"
+                },
+                {
+                  "name": "tvos",
+                  "version": "9.0"
+                }
+              ],
+              "packageName": "MultipeerHelper",
+              "products": [
+                {
+                  "name": "MultipeerHelper",
+                  "targets": [
+                    "MultipeerHelper"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "MultipeerHelper",
+                  "name": "MultipeerHelper"
+                }
+              ],
+              "toolsVersion": "5.2.0"
+            }
+          },
+          "version": "v1.3.1"
+        },
+        {
+          "defaultToolsVersion": "5.2.0",
+          "manifests": {
+            "5.2.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "11.0"
+                },
+                {
+                  "name": "macos",
+                  "version": "10.10"
+                },
+                {
+                  "name": "tvos",
+                  "version": "9.0"
+                }
+              ],
+              "packageName": "MultipeerHelper",
+              "products": [
+                {
+                  "name": "MultipeerHelper",
+                  "targets": [
+                    "MultipeerHelper"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "MultipeerHelper",
+                  "name": "MultipeerHelper"
+                }
+              ],
+              "toolsVersion": "5.2.0"
+            }
+          },
+          "version": "v1.3.0"
+        },
+        {
+          "defaultToolsVersion": "5.2.0",
+          "manifests": {
+            "5.2.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "11.0"
+                },
+                {
+                  "name": "macos",
+                  "version": "10.10"
+                },
+                {
+                  "name": "tvos",
+                  "version": "9.0"
+                }
+              ],
+              "packageName": "MultipeerHelper",
+              "products": [
+                {
+                  "name": "MultipeerHelper",
+                  "targets": [
+                    "MultipeerHelper"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "MultipeerHelper",
+                  "name": "MultipeerHelper"
+                }
+              ],
+              "toolsVersion": "5.2.0"
+            }
+          },
+          "version": "v1.3.0-rc3"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "ios",
+        "arkit",
+        "realitykit",
+        "wwdc21"
+      ],
+      "readmeURL": "https://raw.githubusercontent.com/maxxfrazer/RealityGeometries/main/README.md",
+      "summary": "A collection of additional geometries ready for use in RealityKit 2",
+      "url": "https://github.com/maxxfrazer/RealityGeometries",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.5.0",
+          "manifests": {
+            "5.5.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "15.0"
+                }
+              ],
+              "packageName": "RealityGeometries",
+              "products": [
+                {
+                  "name": "RealityGeometries",
+                  "targets": [
+                    "RealityGeometries"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "RealityGeometries",
+                  "name": "RealityGeometries"
+                }
+              ],
+              "toolsVersion": "5.5.0"
+            }
+          },
+          "version": "v0.0.1"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "swift",
+        "ios",
+        "augmented-reality",
+        "ar",
+        "swiftpm",
+        "augmented",
+        "arkit",
+        "arkit3",
+        "realitykit"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://raw.githubusercontent.com/maxxfrazer/RKPointPin/master/LICENSE"
+      },
+      "readmeURL": "https://raw.githubusercontent.com/maxxfrazer/RKPointPin/master/README.md",
+      "summary": "A UIView which points at a RealityKit Entity from screenspace",
+      "url": "https://github.com/maxxfrazer/RKPointPin",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.2.0",
+          "manifests": {
+            "5.2.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                }
+              ],
+              "packageName": "RKPointPin",
+              "products": [
+                {
+                  "name": "RKPointPin",
+                  "targets": [
+                    "RKPointPin"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "RKPointPin",
+                  "name": "RKPointPin"
+                }
+              ],
+              "toolsVersion": "5.2.0"
+            }
+          },
+          "version": "v1.0.1"
+        },
+        {
+          "defaultToolsVersion": "5.2.0",
+          "manifests": {
+            "5.2.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                }
+              ],
+              "packageName": "RKPointPin",
+              "products": [
+                {
+                  "name": "RKPointPin",
+                  "targets": [
+                    "RKPointPin"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "RKPointPin",
+                  "name": "RKPointPin"
+                }
+              ],
+              "toolsVersion": "5.2.0"
+            }
+          },
+          "version": "v1.0.0"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "swift",
+        "ios",
+        "augmented-reality",
+        "swiftpm",
+        "3d",
+        "arkit",
+        "realitykit"
+      ],
+      "license": {
+        "name": "MIT",
+        "url": "https://raw.githubusercontent.com/maxxfrazer/RKProgressBar/master/LICENSE"
+      },
+      "readmeURL": "https://raw.githubusercontent.com/maxxfrazer/RKProgressBar/master/README.md",
+      "summary": "A simple RealityKit Entity class for creating a geometry to show progress in the form of a capsule",
+      "url": "https://github.com/maxxfrazer/RKProgressBar",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.1.0",
+          "manifests": {
+            "5.1.0": {
+              "minimumPlatformVersions": [
+                {
+                  "name": "ios",
+                  "version": "13.0"
+                }
+              ],
+              "packageName": "RKProgressBar",
+              "products": [
+                {
+                  "name": "RKProgressBar",
+                  "targets": [
+                    "RKProgressBar"
+                  ],
+                  "type": {
+                    "library": [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "moduleName": "RKProgressBar",
+                  "name": "RKProgressBar"
+                }
+              ],
+              "toolsVersion": "5.1.0"
+            }
+          },
+          "version": "v1.0.0"
+        }
+      ]
+    }
+  ]
+}
