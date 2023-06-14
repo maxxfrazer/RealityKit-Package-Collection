@@ -7,13 +7,15 @@ on:
   pull_request:
     branches:
     - "*"
+  schedule:
+    - cron:  '0 3 * * *' # Runs every day at 3am
 
 jobs:
   build:
     runs-on: macos-13
     steps:
     - name: Checkout 🛎
-      uses: actions/checkout@v3 
+      uses: actions/checkout@v3
     - name: Get Package Collection Generator
       uses: actions/checkout@v3
       with:
@@ -30,3 +32,11 @@ jobs:
       with:
         name: RealityKit-Package-Collection.json
         path: RealityKit-Package-Collection.json
+    - name: Publish Release
+      if: github.ref_name == github.event.repository.default_branch
+      uses: svenstaro/upload-release-action@2.6.0
+      with:
+        file: RealityKit-Package-Collection.json
+        asset_name: RealityKit-Package-Collection-Unsigned.json
+        tag: main-release
+
