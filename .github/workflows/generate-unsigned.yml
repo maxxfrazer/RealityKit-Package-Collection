@@ -1,0 +1,32 @@
+name: Generate Unsigned Package
+
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+    branches:
+    - "*"
+
+jobs:
+  build:
+    runs-on: macos-13
+    steps:
+    - name: Checkout 🛎
+      uses: actions/checkout@v3 
+    - name: Get Package Collection Generator
+      uses: actions/checkout@v3
+      with:
+        repository: apple/swift-package-collection-generator
+        path: swift-package-collection-generator
+    - name: Build Package Collection Generator 🛠️
+      run: |
+        cd swift-package-collection-generator
+        swift build --configuration release
+    - name: Build Unsigned Package 🛠️
+      run: swift-package-collection-generator/.build/release/package-collection-generate RealityKit-Collection-Input.json RealityKit-Package-Collection.json
+    - name: Upload Artifact ⬆️
+      uses: actions/upload-artifact@v3
+      with:
+        name: RealityKit-Package-Collection.json
+        path: RealityKit-Package-Collection.json

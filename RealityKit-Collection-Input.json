@@ -1,11 +1,12 @@
 {
     "name": "RealityKit Package Collection",
     "overview": "Packages to be used by RealityKit apps",
-    "keywords": ["RealityKit", "Augmented Reality", "ARKit", "RealityUI", "FocusEntity"],
+    "keywords": ["RealityKit", "Augmented Reality", "ARKit", "RealityUI", "FocusEntity", "Vision", "Vision Pro", "visionOS", "Vision OS"],
     "author": { "name": "Max Cobb" },
     "packages": [
         { "url": "https://github.com/maxxfrazer/FocusEntity" },
         { "url": "https://github.com/maxxfrazer/RealityUI" },
+        { "url": "https://github.com/HyperARCo/Mirador" },
         { "url": "https://github.com/maxxfrazer/MultipeerHelper" },
         { "url": "https://github.com/maxxfrazer/RealityGeometries" },
         { "url": "https://github.com/maxxfrazer/RKPointPin" },
