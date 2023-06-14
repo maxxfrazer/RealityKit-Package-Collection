@@ -1,0 +1,5 @@
+*.json
+*.pem
+*.cer
+!RealityKit-Collection-Input.json
+!README.md

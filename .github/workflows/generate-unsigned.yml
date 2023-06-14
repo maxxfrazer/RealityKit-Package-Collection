@@ -27,16 +27,25 @@ jobs:
         swift build --configuration release
     - name: Build Unsigned Package 🛠️
       run: swift-package-collection-generator/.build/release/package-collection-generate RealityKit-Collection-Input.json RealityKit-Package-Collection.json
+    - name: Create certificates files
+      env:
+        COLLECTION_CER: ${{ secrets.COLLECTION_CER }}
+        COLLECTION_PEM: ${{ secrets.COLLECTION_PEM }}
+      run: |
+        echo "$COLLECTION_CER" | base64 --decode > spm_collection.cer
+        echo "$COLLECTION_PEM" > spm_collection.pem
+    - name: Build Signed Package ✅
+      run: swift-package-collection-generator/.build/release/package-collection-sign RealityKit-Package-Collection.json RealityKit-Package-Collection-Signed.json spm_collection.pem spm_collection.cer
     - name: Upload Artifact ⬆️
       uses: actions/upload-artifact@v3
       with:
-        name: RealityKit-Package-Collection.json
-        path: RealityKit-Package-Collection.json
+        name: RealityKit-Package-Collection-Signed.json
+        path: RealityKit-Package-Collection-Signed.json
     - name: Publish Release
       if: github.ref_name == github.event.repository.default_branch
       uses: svenstaro/upload-release-action@2.6.0
       with:
-        file: RealityKit-Package-Collection.json
-        asset_name: RealityKit-Package-Collection-Unsigned.json
+        file: RealityKit-Package-Collection-Signed.json
+        asset_name: RealityKit-Package-Collection-Signed.json
         tag: main-release
 
