@@ -38,5 +38,6 @@ jobs:
       with:
         file: RealityKit-Package-Collection.json
         asset_name: RealityKit-Package-Collection-Nightly.json
+        overwrite: true
         tag: main-release
 
